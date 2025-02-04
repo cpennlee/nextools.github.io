@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.logo-container {
+    margin-bottom: 6rem;
+}
+
+.logo {
+	width: 50%;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0 auto;
+    letter-spacing: 0.1em;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #666;
+    letter-spacing: 0.2em;
+    text-transform: lowercase;
+}
+
+.social-links {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.social-link {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+    transform: scale(1.1);
+}
+
+.social-link img {
+    width: 100%;
+    height: 100%;
+}
+
+.instagram img {
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(330deg) brightness(105%) contrast(100%);
+}
+
+.xiaohongshu img {
+    filter: invert(40%) sepia(99%) saturate(7404%) hue-rotate(351deg) brightness(98%) contrast(94%);
+}
+
+.taobao img {
+    filter: invert(49%) sepia(98%) saturate(1723%) hue-rotate(346deg) brightness(99%) contrast(96%);
+}
